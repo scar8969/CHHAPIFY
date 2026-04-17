@@ -1,0 +1,25 @@
+# Website (not needed for CLI)
+website/
+*.md
+!README.md
+
+# Development files
+tests/
+.git/
+.gitignore
+.npmrc
+
+# CI/CD
+.github/
+.gitattributes
+
+# Build artifacts
+*.log
+coverage/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
