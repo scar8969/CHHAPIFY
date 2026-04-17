@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">CHHAP{IFY</h1>
+  <h1 align="center">CHHAPIFY</h1>
   <p align="center">Extract complete design systems from any website in seconds.</p>
 </p>
 
