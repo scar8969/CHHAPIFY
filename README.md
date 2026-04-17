@@ -5,8 +5,13 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/chhapify"><img src="https://img.shields.io/npm/v/chhapify?color=blue&label=npm" alt="npm version"></a>
-  <a href="https://github.com/krs-jetson/design-chhapify/blob/main/LICENSE"><img src="https://img.shields.io/github/license/krs-jetson/design-chhapify" alt="license"></a>
+  <a href="https://www.npmjs.com/package/chhapify"><img src="https://img.shields.io/npm/dw/chhapify?color=blue&label=downloads" alt="npm downloads"></a>
+  <a href="https://github.com/scar8969/CHHAPIFY/blob/main/LICENSE"><img src="https://img.shields.io/github/license/scar8969/CHHAPIFY" alt="license"></a>
   <a href="https://nodejs.org"><img src="https://img.shields.io/node/v/chhapify" alt="node version"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/scar8969/CHHAPIFY">GitHub</a> · <a href="https://www.npmjs.com/package/chhapify">npm</a> · <a href="https://github.com/scar8969/CHHAPIFY/issues">Report Issue</a>
 </p>
 
 ---
