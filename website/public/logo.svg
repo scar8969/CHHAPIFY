@@ -1,0 +1,40 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7FFF00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5CB800;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="glowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7FFF00;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#5CB800;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background glow -->
+  <circle cx="100" cy="100" r="80" fill="url(#glowGradient)" />
+
+  <!-- Main C shape - geometric design -->
+  <path d="M100 30
+           C143.3 30 178 64.7 178 108
+           C178 151.3 143.3 186 100 186
+           L60 186
+           L60 158
+           L100 158
+           C128.5 158 150 136.5 150 108
+           C150 79.5 128.5 58 100 58
+           L60 58
+           L60 30
+           L100 30 Z"
+        fill="url(#logoGradient)"
+        stroke="url(#logoGradient)"
+        stroke-width="2"
+        stroke-linejoin="round"/>
+
+  <!-- Inner accent dots representing extraction/analysis -->
+  <circle cx="120" cy="80" r="4" fill="#1a1a1a" />
+  <circle cx="135" cy="95" r="3" fill="#1a1a1a" />
+  <circle cx="140" cy="115" r="5" fill="#1a1a1a" />
+
+  <!-- Small decorative element at bottom -->
+  <rect x="85" y="165" width="30" height="4" rx="2" fill="url(#logoGradient)" opacity="0.8"/>
+</svg>
