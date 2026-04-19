@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  turbopack: {},
   webpack: (config, { isServer }) => {
     if (isServer) {
-      // Don't bundle playwright — emit require('playwright-core') at runtime instead
+      // Don't bundle playwright — load at runtime
       config.externals.push({
-        'playwright': 'commonjs playwright-core',
+        'playwright': 'commonjs playwright',
+        'playwright-core': 'commonjs playwright-core',
       });
     }
     return config;
