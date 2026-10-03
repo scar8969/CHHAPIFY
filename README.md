@@ -170,6 +170,18 @@ Commands:
   A11y: 94% WCAG score
 ```
 
-## License
+## 📁 Project Structure
 
-[MIT](LICENSE)
+```
+CHHAPIFY/
+├── bin/          # CLI entry point
+├── src/          # Core extraction engine
+├── tests/        # Test suite
+├── website/      # Landing page / docs site
+├── package.json  # npm package manifest
+└── LICENSE
+```
+
+## 📄 License
+
+[MIT](LICENSE) © Priyanshu Rout
